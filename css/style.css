@@ -24,7 +24,7 @@ body {
 }
 
 .logo-content-img{
-    border: 0px solid green;
+    border: 1px solid green;
 }
 
 .emp-text{
@@ -40,6 +40,6 @@ body {
 
 }
 
-*{
+* {
     box-sizing: border-box;
 }
