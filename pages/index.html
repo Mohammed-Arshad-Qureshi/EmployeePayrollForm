@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>   <!-- UC1 -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -32,7 +32,7 @@
                     <input class="input" type="text" id="name" name="name" placeholder="Your name .." required>
                 </div> 
 
-                <!-- UC3 -->
+<!-- UC3 -->
 
                 <div class="row-content">
                     <label class="label text" for="profile">Profile image </label>
@@ -54,6 +54,67 @@
                             <img class="profile" id="image1" src="../asserts/profile-images/Ellipse -4.png">
                         </label>
                     </div>
+                </div>
+                    
+                    
+
+ <!-- UC4 -->
+                    <div class="row-content">
+                        <label class="label text" for="gender">Gender</label>
+
+                        <div>
+
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label class="text" for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            <label class="text" for="female">Female</label>
+
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label class="text" for="other">Other</label>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row-content">
+                        <label class="label text" for="department">Department</label>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                            <label class="text" for="hr">HR</label>
+                        </div>
+
+                        <div>
+                            <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales">
+                            <label class="text" for="sales">Sales</label>
+                        </div>
+
+                        <div>
+                            <input class="checkbox" type="checkbox" id="finance" name="finance"  value="Finance">
+                            <label class="text" for="finance">Finance</label>
+                        </div>
+
+                        <div>
+                            <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="Engineer">
+                            <label class="text" for="engineer">Engineer</label>
+                        </div>
+
+                        <div>
+                            <input class="checkbox" type="checkbox" id="Other" name="other" value="Other">
+                            <label class="text" for="Other">Other</label>
+                        </div>
+                    </div>
+                      
+
+
+                    <div class="row-content">
+                        <label class="label text" for="salary">Choose You Salary</label>
+                        <input class="input" type="range" name="salary" id="salary" min="300000"
+                        max="500000" step="100" value="400000">
+
+                        <output class="salary-output text" for="salary">400000</output>
+                    </div>
+
 
 
                 </div>
