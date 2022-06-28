@@ -187,6 +187,15 @@ select {
 
 }
 
+/* fot the error msg */
+error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color:red;
+}
+
+
 /* UC6 Extended */
 /* Media queries */
 @media only screen and (max-width: 960px)
